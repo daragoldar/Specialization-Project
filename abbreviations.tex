@@ -1,6 +1,15 @@
-\clearpage
-\pagenumbering{roman} 				
-\setcounter{page}{1}
+\section*{{\Huge Abbreviations}}
+\addcontentsline{toc}{chapter}{Abbreviations}
+$\\[0.5cm]$
+
+\noindent 
+\begin{center}
+\begin{tabular}{ l c l }
+   Symbol & = & definition \\
+\end{tabular}
+\end{center}
+
+\cleardoublepage
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -9,12 +18,9 @@
 \renewcommand{\headrulewidth}{0.1ex}
 \renewcommand{\footrulewidth}{0.1ex}
 \fancyfoot[LE,RO]{\thepage}
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\rightmark}
 \fancypagestyle{plain}{\fancyhf{}\fancyfoot[LE,RO]{\thepage}\renewcommand{\headrulewidth}{0ex}}
 
-\section*{\Huge Summary}
-\addcontentsline{toc}{chapter}{Summary}	
-$\\[0.5cm]$
-
-\noindent Write your summary here...
-
-\clearpage
+\pagenumbering{arabic} 				
+\setcounter{page}{1}
